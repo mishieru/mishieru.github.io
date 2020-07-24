@@ -4,7 +4,7 @@
     font-family: Lato, sans-serif;
     margin: auto;
     text-align: left;
-    padding: 5px 20px 20px 10px;
+    padding: 15px 20px 20px 15px;
     width: 50%;
     box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
@@ -25,4 +25,10 @@ ion-icon{
     border: none;
     font-weight: bold;
     margin: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+    .card {
+        width: 80%;
+    }
 }
